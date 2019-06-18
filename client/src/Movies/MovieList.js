@@ -36,9 +36,8 @@ function MovieDetails({ movie }) {
   const { title, director, metascore, stars } = movie;
   return (
     <div className="movie-card">
-      <Link to={`/movies/${movie.id}`}>
+      <Link to={`/movies/${movie.id}`} className='card-link'>
       <h2>{title}</h2>
-      </Link>
       <div className="movie-director">
         Director: <em>{director}</em>
       </div>
@@ -52,7 +51,8 @@ function MovieDetails({ movie }) {
           {star}
         </div>
       ))}
-      
+
+      </Link>
     </div>
   );
 }

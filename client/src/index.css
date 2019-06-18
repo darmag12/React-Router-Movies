@@ -14,11 +14,25 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  text-decoration: none;
+}
+
+.card-link{
+  text-decoration: none;
+  color: black;
 }
 
 .movie-director {
   padding: 4px 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Concert One', cursive;
+
+}
+.movie-card h2{
+  font-family: 'Concert One', cursive;
+  font-size: 1.5rem;
+  
 }
 
 .saved-list {
@@ -38,10 +52,15 @@ body {
 
 .saved-list h3 {
   margin-right: 10px;
+  font-family: 'Lalezar', cursive;
+  font-size: 1.6rem;
+
 }
 
 .saved-movie {
   margin: 0 10px;
+  font-size: 1.3rem;
+  font-family: 'Concert One', cursive;
 }
 .saved-active {
   color: blue;
@@ -64,9 +83,14 @@ body {
 .save-button:hover {
   background-color: green;
   color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
